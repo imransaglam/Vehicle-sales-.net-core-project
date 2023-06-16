@@ -16,6 +16,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = c:\Users\ASUS\source\repos\OtoServisSatis\OtoServisSatis.WebUI
 build_property._RazorSourceGeneratorDebug = 
 
+[c:/Users/ASUS/source/repos/OtoServisSatis/OtoServisSatis.WebUI/Areas/Admin/Views/Brands/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQnJhbmRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ASUS/source/repos/OtoServisSatis/OtoServisSatis.WebUI/Areas/Admin/Views/Brands/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQnJhbmRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ASUS/source/repos/OtoServisSatis/OtoServisSatis.WebUI/Areas/Admin/Views/Brands/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQnJhbmRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ASUS/source/repos/OtoServisSatis/OtoServisSatis.WebUI/Areas/Admin/Views/Brands/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQnJhbmRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [c:/Users/ASUS/source/repos/OtoServisSatis/OtoServisSatis.WebUI/Areas/Admin/Views/Main/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWFpblxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
