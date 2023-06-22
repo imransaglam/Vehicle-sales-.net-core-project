@@ -31,6 +31,12 @@ namespace OtoServisSatis.Entities
 
         [Required(ErrorMessage = "{0} Boş Bırakılamaz!")]
         public string Notlar { get; set; }
+        [StringLength(100)]
+        public string? Resim1 { get; set; }
+        [StringLength(100)]
+        public string? Resim2 { get; set; }
+        [StringLength(100)]
+        public string? Resim3 { get; set; }
         public virtual Marka? Marka { get; set; }//Araç sınıfı ile Marka sınıfı arasındaki bağlantı
     }
 }

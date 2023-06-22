@@ -5,6 +5,38 @@
       "PackagePath": "staticwebassets\\OtoServisSatis.WebUI.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Cars\\arac1_beyaz.jpg",
+      "PackagePath": "staticwebassets\\Img\\Cars\\arac1_beyaz.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Cars\\arac1_kırmızı.jpg",
+      "PackagePath": "staticwebassets\\Img\\Cars\\arac1_kırmızı.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Cars\\arac1_mavi.jpg",
+      "PackagePath": "staticwebassets\\Img\\Cars\\arac1_mavi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Cars\\arac1_sarı.jpg",
+      "PackagePath": "staticwebassets\\Img\\Cars\\arac1_sarı.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Cars\\arac2_beyaz.jpg",
+      "PackagePath": "staticwebassets\\Img\\Cars\\arac2_beyaz.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Cars\\arac2_kırmızı.jpg",
+      "PackagePath": "staticwebassets\\Img\\Cars\\arac2_kırmızı.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Cars\\arac2_mavi.jpg",
+      "PackagePath": "staticwebassets\\Img\\Cars\\arac2_mavi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Cars\\arac3_mavi.jpg",
+      "PackagePath": "staticwebassets\\Img\\Cars\\arac3_mavi.jpg"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\admin\\401.html",
       "PackagePath": "staticwebassets\\admin\\401.html"
     },
