@@ -59,39 +59,52 @@ namespace OtoServisSatis.WebUI.Areas.Admin.Controllers
         }
 
         // GET: SlidersController/Edit/5
-        public ActionResult Edit(int id)
+        public async Task<ActionResult> Edit(int id)
         {
-            return View();
+            var model =await _service.FindAsync(id);
+            return View(model);
         }
 
         // POST: SlidersController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public async Task<ActionResult> EditAsync(int id, Slider collection,IFormFile? Resim)//asp-for da Resim olarak tanımladığımız için parametre de Resim olmalı
         {
-            try
+            if (ModelState.IsValid)
             {
-                return RedirectToAction(nameof(Index));
+                try
+                {
+                    if (Resim is not null)
+                        collection.Resim = await FileHelper.FileLoaderAsync(Resim,"/Img/Slider/");
+                    _service.Update(collection);
+                    await _service.SaveAsync();
+                    return RedirectToAction(nameof(Index));
+                }
+                catch
+                {
+                    ModelState.AddModelError("", "Hata Oluştu");
+                }
             }
-            catch
-            {
-                return View();
-            }
+         
+            return View(collection);
         }
 
         // GET: SlidersController/Delete/5
-        public ActionResult Delete(int id)
+        public async Task<ActionResult> Delete(int id)
         {
-            return View();
+            var model =await _service.FindAsync(id);
+            return View(model);
         }
 
         // POST: SlidersController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public async Task<ActionResult> Delete(int id, Slider collection)
         {
             try
             {
+                _service.Delete(collection);
+                await _service.SaveAsync();
                 return RedirectToAction(nameof(Index));
             }
             catch
