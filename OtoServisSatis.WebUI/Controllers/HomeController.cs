@@ -10,15 +10,22 @@ namespace OtoServisSatis.WebUI.Controllers
     {
         
         private readonly IService<Slider> _service;
+        private readonly IService<Arac> _serviceArac;
 
-        public HomeController(IService<Slider> service)
+        public HomeController(IService<Slider> service, IService<Arac> serviceArac)
         {
             _service = service;
+            _serviceArac = serviceArac;
         }
 
         public async Task<IActionResult> Index()
         {
-            var model =await _service.GetAllAsync();
+            var model = new HomePageViewModel()
+            {
+                Sliders = await _service.GetAllAsync(),
+                Araclar = await _serviceArac.GetAllAsync()
+
+             };
             return View(model);
         }
 
