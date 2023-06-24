@@ -9,6 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<DatabaseContext>();
 builder.Services.AddTransient(typeof(IService<>),typeof(Service<>));
+builder.Services.AddTransient<ICarService,CarService>();
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(x => 
 {
     x.LoginPath = "/Admin/Login";

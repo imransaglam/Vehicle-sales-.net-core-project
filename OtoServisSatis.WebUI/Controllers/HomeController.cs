@@ -10,9 +10,9 @@ namespace OtoServisSatis.WebUI.Controllers
     {
         
         private readonly IService<Slider> _service;
-        private readonly IService<Arac> _serviceArac;
+        private readonly ICarService _serviceArac;
 
-        public HomeController(IService<Slider> service, IService<Arac> serviceArac)
+        public HomeController(IService<Slider> service, ICarService serviceArac)
         {
             _service = service;
             _serviceArac = serviceArac;
@@ -23,7 +23,7 @@ namespace OtoServisSatis.WebUI.Controllers
             var model = new HomePageViewModel()
             {
                 Sliders = await _service.GetAllAsync(),
-                Araclar = await _serviceArac.GetAllAsync(a=>a.Anasayfa)//Sadece anasayfa özelliği olan araçlar listelensin
+                Araclar = await _serviceArac.GetCustomCarList(a=>a.Anasayfa)//Sadece anasayfa özelliği olan araçlar listelensin
 
              };
             return View(model);
