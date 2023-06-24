@@ -37,6 +37,10 @@
       "PackagePath": "staticwebassets\\Img\\Cars\\arac3_mavi.jpg"
     },
     {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Cars\\vehicle.jpg",
+      "PackagePath": "staticwebassets\\Img\\Cars\\vehicle.jpg"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Slider\\arac1_beyaz.jpg",
       "PackagePath": "staticwebassets\\Img\\Slider\\arac1_beyaz.jpg"
     },
